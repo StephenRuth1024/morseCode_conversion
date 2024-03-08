@@ -17,8 +17,7 @@ morse_code_dict = {
 
 
 def morse_code_converter():
-    string = input('Enter Text:' )
-    string = string.upper()
+    string = input('Enter Text:' ).upper()
     morse_code_full = ''
     for i in string:
         morse_code_element = morse_code_dict[i]
